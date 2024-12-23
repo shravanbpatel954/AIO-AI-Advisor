@@ -83,13 +83,6 @@ const Response = ({ response, isLoading, youtubeLinks, onSave, onDownloadAsImage
               );
             })}
           </div>
-          <button
-            className="download-button"
-            onClick={onDownloadAsImage}
-            disabled={!response}
-          >
-            Download as Image
-          </button>
           <button className="save-button" onClick={onSave} disabled={!response}>
             Save to MyAIO
           </button>
