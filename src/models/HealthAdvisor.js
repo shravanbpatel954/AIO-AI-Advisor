@@ -16,6 +16,10 @@ const Form = ({ healthCondition, healthConcerns, language, onHealthConditionChan
           <option value="en">English</option>
           <option value="es">Spanish</option>
           <option value="fr">French</option>
+           <option value="hi">Hindi</option>
+          <option value="hin">Hinglish</option>
+          <option value="mr">Marathi</option>
+          <option value="gu">Gujarati</option>
         </select>
         <br />
         <label>Select Type of Health Condition:</label>
