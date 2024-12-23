@@ -163,7 +163,7 @@ const Legal = () => {
       const videoLinks = data.items.map(
         (item) => `https://www.youtube.com/watch?v=${item.id.videoId}`
       );
-      setYoutubeLinks(videoLinks);
+      setYoutubeLinks(videoLinks); // Store the video links in the state
     } catch (error) {
       console.error('Error fetching YouTube videos:', error);
     }
@@ -176,6 +176,7 @@ const Legal = () => {
       language,
       situation,
       advice: response,
+      youtubeLinks, // Store youtube links here as well
       timestamp: new Date().toISOString(),
     };
 
@@ -241,3 +242,4 @@ const Legal = () => {
 };
 
 export default Legal;
+
