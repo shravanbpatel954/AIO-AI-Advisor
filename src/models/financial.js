@@ -109,7 +109,7 @@ const Financial = () => {
   const [youtubeLinks, setYoutubeLinks] = useState([]); // State for YouTube links
   const contentRef = useRef(); // Reference for the content to capture
 
-  const genAI = new GoogleGenerativeAI('AIzaSyC-qKM8A8iW-StAQ-zGVR3YjsfQSSGTfBE');
+  const genAI = new GoogleGenerativeAI('AIzaSyDC22GRNHggs2RL1CXtPQwsCdxtUmBuIY8');
 
   const handleGenerateResponse = async () => {
     try {
