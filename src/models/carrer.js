@@ -120,7 +120,7 @@ const Career = () => {
   const [isLoading, setIsLoading] = useState(false);
   const [youtubeLinks, setYoutubeLinks] = useState([]); // State for YouTube links
 
-  const genAI = new GoogleGenerativeAI('AIzaSyC-qKM8A8iW-StAQ-zGVR3YjsfQSSGTfBE'); // Replace with your actual API key
+  const genAI = new GoogleGenerativeAI('AIzaSyDC22GRNHggs2RL1CXtPQwsCdxtUmBuIY8'); // Replace with your actual API key
 
   const handleGenerateResponse = async () => {
     try {
