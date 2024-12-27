@@ -161,7 +161,7 @@ const Entertainment = () => {
   const [isLoading, setIsLoading] = useState(false);
   const [youtubeLinks, setYoutubeLinks] = useState([]); // State for YouTube links
 
-  const genAI = new GoogleGenerativeAI('AIzaSyC-qKM8A8iW-StAQ-zGVR3YjsfQSSGTfBE');
+  const genAI = new GoogleGenerativeAI('AIzaSyDC22GRNHggs2RL1CXtPQwsCdxtUmBuIY8');
 
   const handleGenerateResponse = async () => {
     try {
