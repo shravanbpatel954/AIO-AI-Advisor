@@ -252,7 +252,7 @@ const BodySection = ({ openAuthModal }) => {
             <a href="https://www.instagram.com/shravan___1809/" target="_blank" rel="noopener noreferrer" className="social-icon instagram">
               <FaInstagram />
             </a>
-            <a href="https://wa.me/8104479942" target="_blank" rel="noopener noreferrer" className="social-icon whatsapp">
+            <a href="https://wa.me/918104479942" target="_blank" rel="noopener noreferrer" className="social-icon whatsapp">
               <FaWhatsapp />
             </a>
             <a href="https://www.linkedin.com/in/shravan-kumar-patel" target="_blank" rel="noopener noreferrer" className="social-icon linkedin">
