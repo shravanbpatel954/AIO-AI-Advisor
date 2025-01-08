@@ -22,12 +22,12 @@ Ensure you have the following installed:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/shravanbpatel954/Prepa-AI-Interview-Prep.git
+        git clone https://github.com/shravanbpatel954/Aio-AI-Advisor.git
     ```
 
 2. Navigate to the project directory:
     ```bash
-    cd Prepa-AI-Interview-Prep
+    cd Aio-AI-advisor
     ```
 
 3. Install the dependencies:
