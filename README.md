@@ -18,15 +18,30 @@ Ensure you have the following installed:
 -  **YouTube API**: For video-related functionality.
 - **Gemini API**: For additional AI-powered functionalities.
 
-### Installation
+### Steps
 
 1. Clone the repository:
+    ```bash
+    git clone https://github.com/shravanbpatel954/Prepa-AI-Interview-Prep.git
+    ```
 
-   ```bash
-   git clone https://github.com/shravanbpatel954/Aio-AI-Advisor.git 
-   '''bash
-   cd Aio-AI-Advisor
-   '''bash
-   npm install
-   '''bash
-   npm start
+2. Navigate to the project directory:
+    ```bash
+    cd Prepa-AI-Interview-Prep
+    ```
+
+3. Install the dependencies:
+    ```bash
+    npm install
+    ```
+
+4. Start the development server:
+    ```bash
+    npm start
+    ```
+
+5. Open your browser and navigate to `http://localhost:3000` to access the app.
+
+## Contributing
+
+Feel free to open issues or submit pull requests if you'd like to contribute to the project!
